@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ "$1" -eq "1" ];then
+  echo "You're only 1 year old? How are you running this??"
+elif [ "$1" -ge "2" ];then
+  echo "You're $1 years old! Whoo!"
+elif [ "$1" -le "0" ]
+  echo "You know that isn't true...."
+else
+  echo "I don't think you understood the script. You have to put an integer in!"
+fi
