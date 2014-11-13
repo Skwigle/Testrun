@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ "$1" == "no" ];then
+  echo "You're right! Chris can't think of anything new! Apparently his creativity goes as far as apples...go him..."
+elif [ "$1" == "yes" ];then
+  echo "I appreciate your kindness...but you're wrong. I am pretty sure Chris is out of clever simple scripts..."
+else
+  echo "I'm not quite sure you understood the script...."
+fi
